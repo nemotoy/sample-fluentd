@@ -1,0 +1,5 @@
+version: '3'
+services: 
+  sample-fluentd:
+    restart: always
+    image: fluent/fluentd:v0.12-debian
